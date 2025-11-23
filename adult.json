@@ -1,0 +1,20 @@
+{
+  "title": "18+ Контент",
+  "items": [
+    {
+      "title": "Pornhub Новинки",
+      "action": "player",
+      "playlist": "https://твой-username.github.io/msx-my-page/adult.m3u"
+    },
+    {
+      "title": "XVideos Популярное",
+      "action": "player",
+      "url": "https://www.xvideos.com/video.embed/12345678"  // Замени на реальный embed ID
+    },
+    {
+      "title": "Категории 18+",
+      "action": "page",
+      "url": "https://твой-username.github.io/msx-my-page/categories.json"
+    }
+  ]
+}
