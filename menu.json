@@ -1,0 +1,50 @@
+{
+  "title": "Мой MSX: HDRezka + 18+",
+  "background": "https://i.imgur.com/2vU7jPq.jpg",
+  "items": [
+    {
+      "title": "HDRezka (Фильмы и Сериалы)",
+      "icon": "https://i.imgur.com/Cfh8j8k.png",
+      "action": "extension",
+      "extension": "https://lampac.cdnvideo.org/app.js"
+    },
+    {
+      "title": "18+ (Pornhub, XVideos и др.)",
+      "icon": "https://i.imgur.com/2b3k9pL.png",
+      "action": "page",
+      "url": "https:/lex0023-arch.github.io/msx-my-page/adult.json"
+    },
+    {
+      "title": "Поиск по HDRezka",
+      "icon": "https://i.imgur.com/search.png",
+      "action": "interaction",
+      "data": {
+        "type": "input",
+        "title": "Что ищем в HDRezka?",
+        "action": "search",
+        "queries": [
+          {
+            "title": "Фильмы/Сериалы",
+            "url": "https://rezka.ag/search/?q={input}"
+          }
+        ]
+      }
+    },
+    {
+      "title": "18+ Поиск",
+      "icon": "https://i.imgur.com/search.png",
+      "action": "interaction",
+      "data": {
+        "type": "input",
+        "title": "Что ищем в 18+?",
+        "action": "search",
+        "queries": [
+          {
+            "title": "Pornhub",
+            "url": "https://www.pornhub.com/video/search?search={input}"
+          }
+        ]
+      }
+    }
+  ]
+}
